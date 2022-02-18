@@ -84,27 +84,6 @@ Login
 
 ![Preview Thumbnail](https://raw.githubusercontent.com/Dentrax/ProductManagementTool/master/diagrams/sequence/diagram_sequence_login.png)
 
-- **[Click here](https://github.com/Dentrax/ProductManagementTool/blob/master/diagrams/sequence)** for see the other Squence diagrams.
-
-## Statechart
-
-Login
-
-![Preview Thumbnail](https://raw.githubusercontent.com/Dentrax/ProductManagementTool/master/diagrams/statechart/diagram_statechart_login.png)
-
-- **[Click here](https://github.com/Dentrax/ProductManagementTool/blob/master/diagrams/statechart)** for see the other Statechart diagrams.
-
-# Screenshots - Program GUI
-
-![Preview Thumbnail](https://raw.githubusercontent.com/Dentrax/ProductManagementTool/master/screenshots/ss_panel_login.png)
-
-![Preview Thumbnail](https://raw.githubusercontent.com/Dentrax/ProductManagementTool/master/screenshots/ss_panel_register.png)
-
-![Preview Thumbnail](https://raw.githubusercontent.com/Dentrax/ProductManagementTool/master/screenshots/ss_panel_product-edit.png)
-
-![Preview Thumbnail](https://raw.githubusercontent.com/Dentrax/ProductManagementTool/master/screenshots/ss_panel_main-list.png)
-
-![Preview Thumbnail](https://raw.githubusercontent.com/Dentrax/ProductManagementTool/master/screenshots/ss_panel_main-search.png)
 
 ## Features
 
@@ -142,16 +121,6 @@ Login
 
 * Window Fixed Size feature not working on Linux.
 
-## How To Use
-
-1) git clone https://github.com/dentrax/ProductManagementTool
-
-2) Import **[ProductManagementTool.sql](https://github.com/Dentrax/ProductManagementTool/blob/master/sql/ProductManagementTool.sql)** file to the database
-
-3) Re-configure your database informations in **[dbcontroller.cpp](https://github.com/Dentrax/ProductManagementTool/blob/master/src/dbcontroller.cpp)**'s `SetupDB()` function.
-
-4) [Build and Run!](#build-run)
-
 ## Build & Run
 
 `qmake && make && ./ProductManagementTool`
@@ -182,38 +151,9 @@ ProductManagementTool was created to serve three purposes:
 
 3. To create your own Qt application.
 
-## Collaborators
-
-**Project Manager** - Furkan Türkal (GitHub: **[dentrax](https://github.com/dentrax)**)
-
-## Branches
-
-We publish source for the **[ProductManagementTool]** in single rolling branch:
-
-The **[master branch](https://github.com/dentrax/ProductManagementTool/tree/master)** is extensively tested by our QA team and makes a great starting point for learning the algorithms. Also tracks [live changes](https://github.com/dentrax/ProductManagementTool/commits/master) by our team. 
-
-## Copyright & Licensing
-
-The base project code is copyrighted by Furkan 'Dentrax' Türkal and is covered by single licence.
-
-All program code (i.e. .h, .cpp, .ui) is licensed under GNU v3 License unless otherwise specified. Please see the **[LICENSE.md](https://github.com/Dentrax/ProductManagementTool/blob/master/LICENSE)** file for more information.
 
 **References**
 
 While this repository is being prepared, it may have been quoted from some sources. (i.e Official Wiki & Documentations)
 If there is an unspecified source, please contact me.
 
-## Contributing
-
-Please check the [CONTRIBUTING.md](CONTRIBUTING.md) file for contribution instructions and naming guidelines.
-
-## Contact
-
-ProductManagementTool was created by Furkan 'Dentrax' Türkal
-
- * <https://www.furkanturkal.com>
- 
-You can contact by URL:
-    **[CONTACT](https://github.com/dentrax)**
-
-<kbd>Best Regards</kbd>
